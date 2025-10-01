@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_livro"
+            android:icon="@drawable/iccart"
+            android:title="Livro"/>
+
+        <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/icgames"
+            android:title="Games"/>
+
+        <item
+            android:id="@+id/nav_ferramentas"
+            android:icon="@drawable/icferramentas"
+            android:title="Ferramentas"/>
+
+        <item
+            android:id="@+id/nav_pets"
+            android:icon="@drawable/icpets"
+            android:title="Pets"/>
+
+        <item
+            android:id="@+id/nav_jardimplantas"
+            android:icon="@drawable/icjardim"
+            android:title="Jardim e Plantas"/>
+
+        <item
+            android:id="@+id/nav_automotivo"
+            android:icon="@drawable/icautomotivo"
+            android:title="Automotivo"/>
+
+    </group>
+
+</menu>
