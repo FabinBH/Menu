@@ -3,14 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PedidosFragment">
+    tools:context=".GamesFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Pedidos"
+        android:text="Cupons"
         android:gravity="center"
         android:textColor="@color/red"
         android:textSize="36dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"/>
 
 </FrameLayout>

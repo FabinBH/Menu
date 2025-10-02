@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FavoritosFragment">
+    tools:context=".MoedasFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Favoritos"
+        android:text="Moedas"
         android:gravity="center"
         android:textColor="@color/red"
         android:textSize="36dp"/>

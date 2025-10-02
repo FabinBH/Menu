@@ -3,23 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GamesFragment">
+    tools:context=".PremiosFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Games"
+        android:text="Prêmios"
         android:gravity="center"
         android:textColor="@color/red"
         android:textSize="36dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Fábio Ferreira de Paulo"
-        android:gravity="center_horizontal"
-        android:textColor="@color/white"
-        android:layout_marginTop="200dp"
-        android:textSize="20dp"/>
 
 </FrameLayout>

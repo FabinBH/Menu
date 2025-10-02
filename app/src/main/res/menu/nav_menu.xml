@@ -5,35 +5,33 @@
     <group
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_livro"
-            android:icon="@drawable/iccart"
-            android:title="Livro"/>
+            android:id="@+id/nav_premios"
+            android:icon="@drawable/ic_premios"
+            android:title="Prêmios"/>
 
         <item
-            android:id="@+id/nav_games"
-            android:icon="@drawable/icgames"
-            android:title="Games"/>
+            android:id="@+id/nav_frete"
+            android:icon="@drawable/ic_frete"
+            android:title="Frete Grátis"/>
 
         <item
-            android:id="@+id/nav_ferramentas"
-            android:icon="@drawable/icferramentas"
-            android:title="Ferramentas"/>
+            android:id="@+id/nav_cupons"
+            android:icon="@drawable/ic_cupon"
+            android:title="Cupons"/>
 
         <item
-            android:id="@+id/nav_pets"
-            android:icon="@drawable/icpets"
-            android:title="Pets"/>
+            android:id="@+id/nav_lojas"
+            android:icon="@drawable/ic_lojas"
+            android:title="Lojas Oficiais"/>
 
         <item
-            android:id="@+id/nav_jardimplantas"
-            android:icon="@drawable/icjardim"
-            android:title="Jardim e Plantas"/>
+            android:id="@+id/nav_doacoes"
+            android:icon="@drawable/ic_doacao"
+            android:title="Doações"/>
 
         <item
-            android:id="@+id/nav_automotivo"
-            android:icon="@drawable/icautomotivo"
-            android:title="Automotivo"/>
-
+            android:id="@+id/nav_moda"
+            android:icon="@drawable/ic_moda"
+            android:title="Moda"/>
     </group>
-
 </menu>

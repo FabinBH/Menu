@@ -32,15 +32,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val toggle = ActionBarDrawerToggle(this, binding.drawerLayout, binding.toolbar, R.string.nav_open, R.string.nav_close)
         toggle.syncState()
 
-        //supportActionBar?.title =""
         binding.navigationDrawer.setNavigationItemSelectedListener(this)
 
         binding.bottomNavigation.setOnItemSelectedListener { item ->
             when(item.itemId){
                 R.id.bottom_home -> openFragment(InicioFragment())
-                R.id.bottom_profile -> openFragment(BuscarFragment())
-                R.id.bottom_cart -> openFragment(FavoritosFragment())
-                R.id.bottom_menu -> openFragment(PedidosFragment())
+                R.id.bottom_achado -> openFragment(AchadoFragment())
+                R.id.bottom_shop -> openFragment(ShopFragment())
+                R.id.bottom_moedas -> openFragment(MoedasFragment())
             }
             true
         }
@@ -48,7 +47,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         openFragment(InicioFragment())
 
         binding.fab.setOnClickListener {
-            Toast.makeText(this, "Categorias", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Cadastrar", Toast.LENGTH_SHORT).show()
         }
 
         onBackPressedDispatcher.addCallback(this){
@@ -62,12 +61,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.nav_livro -> openFragment(LivroFragment())
-            R.id.nav_games-> openFragment(GamesFragment())
-            R.id.nav_ferramentas -> openFragment(FerramentasFragment())
-            R.id.nav_pets -> Toast.makeText(this,"Pets", Toast.LENGTH_SHORT).show()
-            R.id.nav_jardimplantas -> Toast.makeText(this,"Jardim e Plantas", Toast.LENGTH_SHORT).show()
-            R.id.nav_automotivo -> Toast.makeText(this,"Automotivo", Toast.LENGTH_SHORT).show()
+            R.id.nav_premios -> openFragment(PremiosFragment())
+            R.id.nav_frete-> openFragment(FreteFragment())
+            R.id.nav_cupons -> openFragment(CuponsFragment())
+            R.id.nav_lojas -> Toast.makeText(this,"Lojas Oficiais", Toast.LENGTH_SHORT).show()
+            R.id.nav_doacoes -> Toast.makeText(this,"Doações", Toast.LENGTH_SHORT).show()
+            R.id.nav_moda -> Toast.makeText(this,"Moda", Toast.LENGTH_SHORT).show()
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
         return true
