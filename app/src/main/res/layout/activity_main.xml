@@ -17,7 +17,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="@color/red"
                 android:elevation="4dp"
-                app:title="Mercado Livre"
+                app:title="Shopee"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
         <FrameLayout
             android:id="@+id/fragment_container"
